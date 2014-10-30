@@ -6,7 +6,7 @@ public class Student {
     	private String name;
     
 	//turn this into an array///////////////
-    	private int mark1, mark2, mark3; 
+    	private int mark1, mark2, mark3;
 
 
  //constructor methods - 3 ways you can make a student
