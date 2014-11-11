@@ -26,7 +26,7 @@ public class Craps {
        }
        public boolean hasWon()
        {
-           if (rollnum==1) return (getTotal()==7||getTotal==11);
+           if (rollnum==1) return (getTotal()==7||getTotal()==11);
            else return (point == getTotal());
        }
        public boolean hasLost()
