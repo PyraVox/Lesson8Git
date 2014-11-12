@@ -35,6 +35,20 @@ public class StudentAdd extends javax.swing.JDialog {
         marks[2] = Integer.parseInt(model.getValueAt(0, 2).toString());
         }catch (Exception e){JOptionPane.showMessageDialog(this, "Fill out all fields");}
         return marks;
+        temp = new Student1(name, marks);
+    this.dispose();
+    }
+    
+    
+    public void setForm(Student s){
+        DefaultTableModel model = (DefaultTableModel)(tblMarks.getModel());
+        txtName.setText(s.getName());
+        model.setValueAt(s.getMark(1), 0, 0);
+        model.setValueAt(s.getMark(2), 0, 1);
+        model.setValueAt(s.getMark(3), 0, 2);
+    }
+    public Student getStudent(){
+        return temp;
     }
 
     /**
