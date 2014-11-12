@@ -15,7 +15,10 @@ public class StudentForm extends javax.swing.JDialog {
     public StudentForm(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-    }
+    }//sadfkjhaskdnjashfkjhaklsjdf
+    public static void asdlkjasd{
+    aasdasd
+}
 
     /**
      * This method is called from within the constructor to initialize the form.
