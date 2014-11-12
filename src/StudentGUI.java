@@ -12,7 +12,7 @@ public class StudentGUI extends javax.swing.JFrame {
      */
     public StudentGUI() {
         initComponents();
-    }
+    }//djdjdj
 
     /**
      * This method is called from within the constructor to initialize the form.

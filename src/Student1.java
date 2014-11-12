@@ -3,7 +3,7 @@ public class Student1 {
     
     private String name;
     private int test[] = new int [3];
-    
+    //fdgf
     public Student1 (String nm, int t[]){
         name = nm;
         test = t;
